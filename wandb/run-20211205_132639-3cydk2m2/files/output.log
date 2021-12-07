@@ -1,0 +1,44 @@
+INFO: Starting training:
+        Epochs:          2
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+
+Epoch 1/2:  10%|█         | 97/970 [00:04<00:31, 27.56img/s, loss (batch)=0.434]
+
+
+
+Epoch 1/2:  20%|█▊       | 194/970 [00:09<00:27, 27.84img/s, loss (batch)=0.366]INFO: Validation Dice score: 0.5976328253746033
+Epoch 1/2:  30%|██▋      | 291/970 [00:15<00:23, 28.54img/s, loss (batch)=0.233]
+
+
+Epoch 1/2:  40%|███▌     | 388/970 [00:20<00:20, 27.97img/s, loss (batch)=0.233]
+
+
+Epoch 1/2:  50%|████▌    | 485/970 [00:25<00:17, 28.22img/s, loss (batch)=0.117]INFO: Validation Dice score: 0.5775622725486755
+
+Epoch 1/2:  60%|█████▍   | 582/970 [00:30<00:13, 27.79img/s, loss (batch)=0.134]
+
+
+Epoch 1/2:  70%|██████▎  | 679/970 [00:36<00:10, 28.04img/s, loss (batch)=0.108]
+
+
+Epoch 1/2:  80%|███████▏ | 776/970 [00:41<00:06, 28.07img/s, loss (batch)=0.101]INFO: Validation Dice score: 0.5222499966621399
+
+Epoch 1/2:  90%|█████████ | 873/970 [00:46<00:03, 27.18img/s, loss (batch)=0.15]
+
+
+Epoch 1/2: 100%|█████████| 970/970 [00:52<00:00, 26.94img/s, loss (batch)=0.181]INFO: Validation Dice score: 0.5462140440940857
+Epoch 1/2: 100%|█████████| 970/970 [00:54<00:00, 17.96img/s, loss (batch)=0.181]
+INFO: Checkpoint 1 saved!
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train_net(net=net,
+  File "train.py", line 145, in train_net
+    training_loss_list.append(epoch_loss/len(train_dataloader))
+NameError: name 'train_dataloader' is not defined

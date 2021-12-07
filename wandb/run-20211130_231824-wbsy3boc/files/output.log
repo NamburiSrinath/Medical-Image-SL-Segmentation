@@ -1,0 +1,207 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  1.0
+        Mixed Precision: False
+Epoch 1/5:   1%|▍                                                                      | 6/970 [00:01<03:12,  5.01img/s, loss (batch)=0.799]
+1, ndim = 2
+3, /255
+1, ndim = 2
+3, /255
+1, ndim = 2
+3, /255
+1, ndim = 2
+3, /255
+1, ndim = 2
+3, /255
+1, ndim = 2
+3, /255
+1, ndim = 2
+3, /255
+1, ndim = 2
+3, /255
+aaaaaa
+1, ndim = 2
+3, /255
+tensor(0.7529, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+tensor(1, device='cuda:0')
+tensor(1.7736, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9569, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(1, device='cuda:0')
+tensor(1.7850, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9765, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(1, device='cuda:0')
+tensor(2.7077, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9569, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(1, device='cuda:0')
+tensor(2.8494, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.7098, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(3.1822, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9608, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(2.9705, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9412, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+Epoch 1/5:   2%|█▌                                                                    | 22/970 [00:03<02:10,  7.27img/s, loss (batch)=0.437]
+INFO: Saved interrupt
+aaaaaa
+tensor(0.9569, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(1, device='cuda:0')
+tensor(5.2493, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.6588, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(5.7074, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.7098, device='cuda:0') tensor(0, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(0, device='cuda:0')
+tensor(5.8683, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9765, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(3.8402, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9608, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(1, device='cuda:0')
+tensor(4.6513, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9059, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(1, device='cuda:0')
+tensor(6.8207, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9490, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(4.7383, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.8667, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(4.3168, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.7647, device='cuda:0') tensor(0, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(0, device='cuda:0')
+tensor(7.2987, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9804, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(4.1321, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9569, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(4.8655, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9882, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+1, ndim = 2
+3, /255
+baah
+tensor(1, device='cuda:0')
+tensor(4.3309, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+1, ndim = 2
+3, /255
+tensor(0.9804, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+tensor(1, device='cuda:0')
+tensor(4.3809, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.6588, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(6.9566, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.8667, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])
+baah
+1, ndim = 2
+3, /255
+tensor(1, device='cuda:0')
+tensor(5.8333, device='cuda:0', grad_fn=<MaxBackward1>)
+aaaaaa
+tensor(0.9961, device='cuda:0') tensor(1, device='cuda:0')
+torch.Size([1, 384, 384])

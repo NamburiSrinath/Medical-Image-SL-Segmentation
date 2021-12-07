@@ -1,0 +1,37 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                                                   | 0/970 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 181, in <module>
+    train_net(net=net,
+  File "train.py", line 76, in train_net
+    for batch in train_loader:
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 517, in __next__
+    data = self._next_data()
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1199, in _next_data
+    return self._process_data(data)
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1225, in _process_data
+    data.reraise()
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/_utils.py", line 429, in reraise
+    raise self.exc_type(msg)
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 202, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/utils/data/dataset.py", line 330, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "/home/snamburi/Debarshi/utils/data_loading.py", line 74, in __getitem__
+    'mask': torch.as_tensor(mask.copy()).long().contiguous()
+TypeError: can't convert np.ndarray of type numpy.uint16. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint8, and bool.

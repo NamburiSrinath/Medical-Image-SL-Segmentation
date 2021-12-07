@@ -1,0 +1,51 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: True
+Epoch 1/5:   0%|                                                                                                   | 0/970 [00:00<?, ?img/s]/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [806,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [807,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [995,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [996,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [997,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [998,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [999,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [1000,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [160,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [161,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [162,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [163,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [164,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [165,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [166,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [167,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [168,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [543,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [925,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [926,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [927,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [352,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [353,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [354,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [355,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [356,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [357,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [358,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [359,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [360,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [361,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [362,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [370,0,0] Assertion `t >= 0 && t < n_classes` failed.
+/opt/conda/conda-bld/pytorch_1627336325426/work/aten/src/THCUNN/SpatialClassNLLCriterion.cu:106: cunn_SpatialClassNLLCriterion_updateOutput_kernel: block: [0,0,0], thread: [351,0,0] Assertion `t >= 0 && t < n_classes` failed.
+Epoch 1/5:   0%|                                                                                                   | 0/970 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 181, in <module>
+    train_net(net=net,
+  File "train.py", line 92, in train_net
+    F.one_hot(true_masks, net.n_classes).permute(0, 3, 1, 2).float(),
+RuntimeError: CUDA error: device-side assert triggered

@@ -1,0 +1,20 @@
+torch.Size([1, 192, 192])
+baah
+torch.Size([1, 2, 192, 192])
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   0%|                                                                                                   | 0/970 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 186, in <module>
+    train_net(net=net,
+  File "train.py", line 93, in train_net
+    print(F.one_hot(true_masks, net.n_classes, relaxed=True))
+TypeError: one_hot() got an unexpected keyword argument 'relaxed'

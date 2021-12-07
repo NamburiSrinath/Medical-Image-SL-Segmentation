@@ -1,0 +1,13 @@
+Training
+>> python train.py -h
+By default, the scale is 0.5, so if you wish to obtain better results (but use more memory), set it to 1.
+Automatic mixed precision is also available with the --amp flag. Mixed precision allows the model to use less memory and to be faster on recent GPUs by using FP16 arithmetic. Enabling AMP is recommended.
+
+Testing
+After training your model and saving it to MODEL.pth, you can easily test the output masks on your images via the CLI.
+
+To predict a single image and save it:
+>> python predict.py -i <image.jpg> -o <output.jpg> -m <model.pth>
+
+To predict a multiple images and show them without saving them:
+>> python predict.py -i <image1.jpg image2.jpg> --viz --no-save

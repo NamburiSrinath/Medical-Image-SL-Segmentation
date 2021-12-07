@@ -1,0 +1,87 @@
+INFO: Starting training:
+        Epochs:          2
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+
+Epoch 1/2:  10%|█         | 97/970 [00:04<00:31, 27.53img/s, loss (batch)=0.414]
+
+
+
+Epoch 1/2:  20%|█▊       | 194/970 [00:09<00:26, 28.77img/s, loss (batch)=0.316]INFO: Validation Dice score: 0.5599086284637451
+Epoch 1/2:  30%|██▋      | 291/970 [00:14<00:23, 29.21img/s, loss (batch)=0.387]
+
+
+Epoch 1/2:  40%|███▌     | 388/970 [00:20<00:20, 27.89img/s, loss (batch)=0.198]
+
+
+Epoch 1/2:  50%|████▌    | 485/970 [00:25<00:17, 28.23img/s, loss (batch)=0.257]INFO: Validation Dice score: 0.5530808568000793
+
+Epoch 1/2:  60%|█████▍   | 582/970 [00:30<00:13, 27.71img/s, loss (batch)=0.231]
+
+
+Epoch 1/2:  70%|██████▎  | 679/970 [00:36<00:10, 27.91img/s, loss (batch)=0.121]
+
+
+Epoch 1/2:  80%|███████▏ | 776/970 [00:41<00:06, 28.13img/s, loss (batch)=0.216]INFO: Validation Dice score: 0.5559607744216919
+
+Epoch 1/2:  90%|████████ | 873/970 [00:46<00:03, 28.26img/s, loss (batch)=0.198]
+
+
+Epoch 1/2: 100%|█████████| 970/970 [00:51<00:00, 27.97img/s, loss (batch)=0.257]INFO: Validation Dice score: 0.5564263463020325
+Epoch 1/2: 100%|█████████| 970/970 [00:53<00:00, 18.03img/s, loss (batch)=0.257]
+INFO: Checkpoint 1 saved!
+
+
+Epoch 2/2:  10%|█         | 97/970 [00:03<00:31, 28.01img/s, loss (batch)=0.148]INFO: Validation Dice score: 0.5472252368927002
+
+Epoch 2/2:  20%|█▊       | 194/970 [00:08<00:27, 28.20img/s, loss (batch)=0.256]
+
+
+Epoch 2/2:  30%|███       | 291/970 [00:14<00:24, 27.67img/s, loss (batch)=0.12]
+
+
+Epoch 2/2:  40%|███▌     | 388/970 [00:19<00:21, 27.20img/s, loss (batch)=0.233]INFO: Validation Dice score: 0.5583810210227966
+
+Epoch 2/2:  50%|████▌    | 485/970 [00:24<00:17, 27.59img/s, loss (batch)=0.198]
+
+
+
+Epoch 2/2:  60%|█████▍   | 582/970 [00:30<00:13, 28.18img/s, loss (batch)=0.228]INFO: Validation Dice score: 0.558032751083374
+Epoch 2/2:  70%|██████▎  | 679/970 [00:35<00:10, 27.85img/s, loss (batch)=0.161]
+
+
+Epoch 2/2:  80%|███████▏ | 776/970 [00:40<00:06, 28.46img/s, loss (batch)=0.314]
+
+
+Epoch 2/2:  90%|████████ | 873/970 [00:45<00:03, 27.66img/s, loss (batch)=0.212]INFO: Validation Dice score: 0.5529325008392334
+
+Epoch 2/2: 100%|█████████| 970/970 [00:51<00:00, 27.90img/s, loss (batch)=0.125]
+Epoch 2/2: 100%|█████████| 970/970 [00:53<00:00, 18.27img/s, loss (batch)=0.125]
+INFO: Checkpoint 2 saved!
+Traceback (most recent call last):
+  File "train.py", line 196, in <module>
+    train_net(net=net,
+  File "train.py", line 151, in train_net
+    plt.plot(epoch, test_loss_list, label='Test Loss')
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/matplotlib/pyplot.py", line 3019, in plot
+    return gca().plot(
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/matplotlib/axes/_axes.py", line 1605, in plot
+    lines = [*self._get_lines(*args, data=data, **kwargs)]
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/matplotlib/axes/_base.py", line 315, in __call__
+    yield from self._plot_args(this, kwargs)
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/matplotlib/axes/_base.py", line 491, in _plot_args
+    y = _check_1d(xy[1])
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/matplotlib/cbook/__init__.py", line 1339, in _check_1d
+    return np.atleast_1d(x)
+  File "<__array_function__ internals>", line 5, in atleast_1d
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/numpy/core/shape_base.py", line 65, in atleast_1d
+    ary = asanyarray(ary)
+  File "/home/snamburi/miniconda3/envs/segmentation/lib/python3.8/site-packages/torch/tensor.py", line 621, in __array__
+    return self.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

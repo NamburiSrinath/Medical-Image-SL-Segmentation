@@ -1,0 +1,21 @@
+{
+    "os": "Linux-3.10.0-1160.45.1.el7.x86_64-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-12-05T19:20:26.965033",
+    "startedAt": "2021-12-05T19:20:25.894343",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--epochs",
+        "2"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "snamburi.workstation",
+    "username": "snamburi",
+    "executable": "/home/snamburi/miniconda3/envs/segmentation/bin/python"
+}

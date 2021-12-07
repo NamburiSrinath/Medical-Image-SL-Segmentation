@@ -1,0 +1,17 @@
+INFO: Starting training:
+        Epochs:          5
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+Epoch 1/5:   0%|                                                                                                   | 0/970 [00:00<?, ?img/s]
+Traceback (most recent call last):
+  File "train.py", line 183, in <module>
+    train_net(net=net,
+  File "train.py", line 77, in train_net
+    print(batch.shape)
+AttributeError: 'dict' object has no attribute 'shape'

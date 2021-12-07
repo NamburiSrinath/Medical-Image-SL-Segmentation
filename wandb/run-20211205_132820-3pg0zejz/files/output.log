@@ -1,0 +1,65 @@
+INFO: Starting training:
+        Epochs:          2
+        Batch size:      1
+        Learning rate:   1e-05
+        Training size:   970
+        Validation size: 107
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+
+Epoch 1/2:  10%|█▉                 | 97/970 [00:04<00:31, 27.42img/s, loss (batch)=0.261]
+
+
+
+Epoch 1/2:  20%|███▌              | 194/970 [00:09<00:27, 28.44img/s, loss (batch)=0.177]INFO: Validation Dice score: 0.5722228288650513
+Epoch 1/2:  30%|█████▍            | 291/970 [00:15<00:24, 28.11img/s, loss (batch)=0.125]
+
+
+Epoch 1/2:  40%|███████▏          | 388/970 [00:20<00:20, 27.81img/s, loss (batch)=0.131]
+
+
+Epoch 1/2:  50%|████████▌        | 485/970 [00:25<00:17, 28.31img/s, loss (batch)=0.0653]INFO: Validation Dice score: 0.5290191769599915
+
+Epoch 1/2:  60%|███████████▍       | 582/970 [00:31<00:13, 28.49img/s, loss (batch)=0.16]
+
+
+Epoch 1/2:  70%|████████████▌     | 679/970 [00:36<00:10, 28.34img/s, loss (batch)=0.202]
+
+
+Epoch 1/2:  80%|███████████████▏   | 776/970 [00:41<00:06, 27.94img/s, loss (batch)=0.22]INFO: Validation Dice score: 0.529537558555603
+
+Epoch 1/2:  90%|████████████████▏ | 873/970 [00:46<00:03, 28.18img/s, loss (batch)=0.139]
+
+
+Epoch 1/2: 100%|██████████████████| 970/970 [00:52<00:00, 28.03img/s, loss (batch)=0.159]
+Epoch 1/2: 100%|██████████████████| 970/970 [00:54<00:00, 17.94img/s, loss (batch)=0.159]
+INFO: Checkpoint 1 saved!
+
+
+Epoch 2/2:  10%|█▉                 | 97/970 [00:03<00:30, 28.29img/s, loss (batch)=0.161]INFO: Validation Dice score: 0.5380937457084656
+Epoch 2/2:  20%|███▍             | 194/970 [00:08<00:26, 29.47img/s, loss (batch)=0.0587]
+
+
+Epoch 2/2:  30%|█████            | 291/970 [00:14<00:24, 27.69img/s, loss (batch)=0.0896]
+
+
+Epoch 2/2:  40%|██████▊          | 388/970 [00:19<00:20, 28.56img/s, loss (batch)=0.0564]INFO: Validation Dice score: 0.536980926990509
+
+Epoch 2/2:  50%|█████████         | 485/970 [00:24<00:17, 27.91img/s, loss (batch)=0.254]
+
+
+Epoch 2/2:  60%|██████████▊       | 582/970 [00:30<00:13, 29.00img/s, loss (batch)=0.137]
+
+
+Epoch 2/2:  70%|███████████▉     | 679/970 [00:35<00:10, 26.63img/s, loss (batch)=0.0578]INFO: Validation Dice score: 0.5072928071022034
+
+Epoch 2/2:  80%|██████████████▍   | 776/970 [00:40<00:06, 28.57img/s, loss (batch)=0.147]
+
+
+Epoch 2/2:  90%|████████████████▏ | 873/970 [00:45<00:03, 29.15img/s, loss (batch)=0.178]INFO: Validation Dice score: 0.5519143342971802
+
+Epoch 2/2: 100%|███████████████████| 970/970 [00:50<00:00, 28.97img/s, loss (batch)=0.21]
+Epoch 2/2: 100%|███████████████████| 970/970 [00:52<00:00, 18.36img/s, loss (batch)=0.21]
+INFO: Checkpoint 2 saved!
